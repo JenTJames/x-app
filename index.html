@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X.It's what's happening</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-dvh w-full bg-black flex flex-col gap-9 p-8">
+      <!-- brand -->
+      <img class="w-9" src="./assets/x.svg" alt="x-brand" />
+      <!-- header -->
+      <h4 class="font-black text-slate-50 text-4xl tracking-wide">
+        Happening now
+      </h4>
+      <p class="font-black text-slate-50 text-xl">Join today.</p>
+      <!-- content -->
+      <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-2">
+          <button class="w-full bg-slate-50 py-2 rounded-full text-xs">
+            Sign up with Google
+          </button>
+          <button class="w-full bg-slate-50 py-2 rounded-full text-xs">
+            Sign up with Apple
+          </button>
+        </div>
+        <div class="relative">
+          <hr class="border-gray-700" />
+          <p
+            class="absolute -top-2 right-[7.5rem] text-slate-50 text-xs bg-black px-2"
+          >
+            or
+          </p>
+        </div>
+        <button
+          class="w-full bg-sky-500 py-2 rounded-full text-xs font-semibold text-slate-50"
+        >
+          Create Account
+        </button>
+        <!-- privacy policy -->
+        <p class="text-slate-600 text-[0.60rem]">
+          By signing in, ypou agree to our
+          <span class="text-sky-500">Terms of service</span> and
+          <span class="text-sky-500">Privacy Policy</span>
+        </p>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h3 class="font-semibold text-sm text-slate-50">
+          Already have an account
+        </h3>
+        <button
+          class="w-full bg-black py-2 rounded-full text-xs font-semibold text-sky-500 border border-slate-600"
+        >
+          Sign in
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
